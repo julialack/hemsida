@@ -1,0 +1,190 @@
+.body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #70bccb;
+}
+
+.container-fluid{
+    width: 100%;
+    height: 200vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #e6e6e6;
+    padding: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+    text-shadow: 10px 10px 10px  #1c829c;
+}
+
+#navbar{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e6e6e6;
+    padding: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+}
+
+.navimg {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(19, 112, 145);
+    font-size: 35px;
+    padding: 20px;
+}
+
+.content button{
+    background:#7e8dc0;
+    text-align: center;
+    border: 2px solid rgb(19, 112, 145);
+    padding: 2px 20px;
+    outline: none;
+    color: rgb(246, 242, 242);
+    border-radius: 24px;
+    cursor: pointer;
+}
+
+
+.content{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    background-color: #70bccb;
+    padding: 10px;
+    box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.2);
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600px;
+    color: #f2f2f2;
+    background-image: url("https://cdn.pixabay.com/photo/2023/06/07/04/26/korean-office-8046186_1280.png");
+    
+}
+
+
+.info{
+    width: 100%;
+    height: 100%;
+    background-color: #70bccb;
+    border: #1c829c solid 1px;
+    padding: 10px;
+    box-shadow: 10px 0px 10px 0px rgba(0,0,0,0.2);  
+    display: flex;
+    
+}
+
+.span {
+
+}
+
+.info img{
+    width: 350px;
+    height: 100%;
+    border-radius: 10px;
+    margin: auto;
+}
+
+
+
+.rekomend{
+    width: 101%;
+    height: 120%;
+    align-items: center;
+    background-color: #70bccb;
+    padding: 0%;
+    border: #1c829c solid 1px;
+    margin: 2px;
+    display: flex;
+    flex-direction: column;
+    
+    
+  
+}
+
+.studenter {
+    flex-direction: row;
+    display: flex;
+    height: fit-content;
+
+}
+
+.p{
+    margin: 20px;
+    font-size: 20px;
+}
+
+
+.rekomend img {
+    width: 500px; 
+    height: 70%;
+
+    
+
+}
+
+.ansok{
+    width: 100%;
+    height: 100%;
+    background-color: #70bccb;
+    padding: 10px;
+    border: #1c829c solid 5px;
+    margin: 2px;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+}
+
+.ansok button{
+    background:#7e8dc0;
+    text-align: center;
+    border: 2px solid rgb(19, 112, 145);
+    padding: 20px 40px;
+    outline: none;
+    color: rgb(246, 242, 242);
+    border-radius: 24px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+
+.footer{
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1c829c;
+    border-bottom: 1px solid #e6e6e6;
+    border: #1c829c solid 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer left {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
